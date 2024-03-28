@@ -1,0 +1,113 @@
+from turtle import *
+
+print()
+print("Welcome to our nothig world!!")
+print("Donno that you will feel well or bad ")
+print("Accually you have to just select specific command prompt to dwoing anything easily! Oky")
+print()
+print("What do you wanna drowing in here please write your selection bellow  ")
+User_input = input("[Heart/Full Expression:]")
+
+if User_input == "Heart":
+    '''call from here just'''
+    color("blue")
+    begin_fill()
+    left(50)
+    forward(100)
+    circle(40, 200)
+    right(140)
+    circle(40, 200)
+    forward(105)
+    end_fill()
+    '''New little heart just'''
+    color("red")
+    begin_fill()
+    left(100)
+    forward(80)
+    circle(30, 200)
+    right(140)
+    circle(30, 200)
+    forward(80)
+    end_fill()
+    done()
+
+elif User_input == "Full Expression":
+    print("please wait")
+
+
+    def showing_result():
+        color("red")
+        begin_fill()
+        left(50)
+        forward(100)
+        circle(40, 180)
+        left(260)
+        circle(40, 180)
+        forward(100)
+        end_fill()
+
+        '''----------------------'''
+        color("green")
+
+        left(50)
+        forward(220)
+        color("blue")
+        begin_fill()
+        left(90)
+        forward(135)
+        left(90)
+        forward(25)
+        left(90)
+        forward(100)
+        right(50)
+        circle(-50, 80)
+        right(50)
+        forward(100)
+        left(90)
+        forward(25)
+        left(90)
+        forward(110)
+        left(50)
+        circle(90, 80)
+        end_fill()
+        '''now it will back in previous positions'''
+        color("green")
+        right(131)
+        forward(25)
+        right(89)
+        forward(220)
+        color("blue")
+        forward(220)
+        '''make latter I '''
+        color("green")
+        begin_fill()
+        right(90)
+        forward(25)
+        right(90)
+        forward(45)
+        left(90)
+        forward(90)
+        left(90)
+        forward(45)
+        right(90)
+        forward(25)
+        right(90)
+        forward(120)
+        right(90)
+        forward(25)
+        right(90)
+        forward(45)
+        left(90)
+        forward(90)
+        left(90)
+        forward(45)
+        right(90)
+        forward(25)
+        end_fill()
+        done()
+
+
+    '''-----------------------------'''
+
+    print(showing_result())
+
